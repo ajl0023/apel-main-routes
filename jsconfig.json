@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "checkJs": false
+  },
+  "include": [
+    "src",
+    "src/pages/**/*.svelte",
+    "src/**/*.svelte",
+    "src/*.js",
+    "src/pageLayout.js"
+  ],
+  "exclude": ["node_modules", "**/node_modules/*", "misc"]
+}
